@@ -19,7 +19,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    - uses: actions/setup-python@v3.0.0
+    
+    - name: Setup pybind11
+      run: pip install pybind11
+    
     - name: Configure CMake
       run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{matrix.BUILD_TYPE}}
 
