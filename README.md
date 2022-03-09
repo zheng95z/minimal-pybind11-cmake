@@ -3,7 +3,7 @@
 This repo is expected to help you build projects based on [pybind11](https://github.com/pybind/pybind11) using [CMake](https://cmake.org/).
 
 [![MacOS and Ubuntu](https://github.com/zheng95z/minimal-pybind11-cmake/actions/workflows/mac-linux.yml/badge.svg)](https://github.com/zheng95z/minimal-pybind11-cmake/actions/workflows/mac-linux.yml)
-
+[![Windows](https://github.com/zheng95z/minimal-pybind11-cmake/actions/workflows/windows.yml/badge.svg)](https://github.com/zheng95z/minimal-pybind11-cmake/actions/workflows/windows.yml)
 ## Install to current directory
 
 To configure:
