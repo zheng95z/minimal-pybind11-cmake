@@ -18,8 +18,6 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
         "MinSizeRel" "RelWithDebInfo")
 endif()
 
-find_package(pybind11 CONFIG REQUIRED)
-
 add_subdirectory(ext)
 
 pybind11_add_module(example src/main.cpp)
